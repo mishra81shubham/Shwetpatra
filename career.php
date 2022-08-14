@@ -1,114 +1,80 @@
 <?php
 
-if(isset($_POST['submit'])){
-    $postData = $uploadedFile = $statusMsg = '';
-    $msgClass = 'errordiv';
-    if(isset($_POST['submit'])){
-    // Get the submitted form data
-    $postData = $_POST;
-    $email = $_POST['email'];
-    $name = $_POST['fname'];
+if (isset($_POST['submit'])) {
+    $from_email = 'info@shwetpatra.com'; //from mail, sender email address
+
+    //Load POST data from HTML form
+
+    $reply_to_email = $_POST["email"]; //sender email, it will be used in "reply-to" header
+    $MESSAGE_BODY = '';
+
+    $ToEmail = 'shwetpatrallp@gmail.com';
     $subject = 'Shwet Patra';
-    $message = 'Hi we send a file';
-    // Check whether submitted data is not empty
-    if(!empty($email) && !empty($name) && !empty($subject) ){
-    // Validate email
-    if(filter_var($email, FILTER_VALIDATE_EMAIL) === false){
-    $statusMsg = 'Please enter your valid email.';
-    }else{
-    $uploadStatus = 1;
-    // Upload attachment file
-    if(!empty($_FILES["attachment"]["cvupload"])){
-    // File path config
-    $targetDir = "upload/";
-    $fileName = basename($_FILES["attachment"]["cvupload"]);
-    $targetFilePath = $targetDir . $fileName;
-    $fileType = pathinfo($targetFilePath,PATHINFO_EXTENSION);
-    // Allow certain file formats
-    $allowTypes = array('pdf', 'doc', 'docx', 'jpg', 'png', 'jpeg');
-    if(in_array($fileType, $allowTypes)){
-    // Upload file to the server
-    if(move_uploaded_file($_FILES["attachment"]["tmp_name"], $targetFilePath)){
-    $uploadedFile = $targetFilePath;
-    }else{
-    $uploadStatus = 0;
-    $statusMsg = "Sorry, there was an error uploading your file.";
+    $mailheader = "From: " . $_POST["email"] . "\r\n";
+    $mailheader .= "Reply-To: " . $_POST["email"] . "\r\n";
+    $mailheader .= "Content-type: text/html; charset=iso-8859-1\r\n";
+    $MESSAGE_BODY = "Name: " . $_POST["name"] . "\r\n";
+    $MESSAGE_BODY .= "Email: " . $_POST["email"] . "\r\n";
+    $MESSAGE_BODY .= "Phone: " . $_POST["phone"] . "\r\n";
+    $MESSAGE_BODY .= "City: " . $_POST["city"] . "\r\n";
+    $MESSAGE_BODY .= "Country: " . $_POST["country"] . "\r\n";
+    $MESSAGE_BODY .= "Subject: " . nl2br($_POST["subject"]) . "\r\n";
+    $MESSAGE_BODY .= "Experience: " . nl2br($_POST["experience"]) . "\r\n";
+    /*Always remember to validate the form fields like this
+    if(strlen($sender_name)<1)
+    {
+        die('Name is too short or empty!');
     }
-    }else{
-    $uploadStatus = 0;
-    $statusMsg = 'Sorry, only PDF, DOC, JPG, JPEG, & PNG files are allowed to upload.';
+    */
+    //Get uploaded file data using $_FILES array
+    $tmp_name = $_FILES['attachment']['tmp_name']; // get the temporary file name of the file on the server
+    $name     = $_FILES['attachment']['name']; // get the name of the file
+    $size     = $_FILES['attachment']['size']; // get size of the file for size validation
+    $type     = $_FILES['attachment']['type']; // get type of the file
+    $error     = $_FILES['attachment']['error']; // get the error (if any)
+    $MESSAGE_BODY .= "CV: " . $name . "\r\n";
+    //validate form field for attaching the file
+    if ($error > 0) {
+        die('Upload error or No files uploaded');
     }
-    }
-    if($uploadStatus == 1){
-    // Recipient
-    $toEmail = 'mishra81shubham@gmail.com';
-    // Sender
-    $from = 'sender@example.com';
-    $fromName = 'RexcelIT';
-    // Subject
-    $emailSubject = 'Contact Request Submitted by '.$name;
-    // Message
-    $htmlContent = '
-    
-    
-    //Contact Request Submitted
-    Name: '.$name.'
-    Email: '.$email.'
-    Subject: '.$subject.'
-    Message:
-    '.$message.'
-    ';
-    // Header for sender info
-    $headers = "From: $fromName"." <".$from.">";
-    if(!empty($uploadedFile) && file_exists($uploadedFile)){
-    // Boundary
-    $semi_rand = md5(time());
-    $mime_boundary = "==Multipart_Boundary_x{$semi_rand}x";
-    // Headers for attachment
-    $headers .= "\nMIME-Version: 1.0\n" . "Content-Type: multipart/mixed;\n" . " boundary=\"{$mime_boundary}\"";
-    // Multipart boundary
-    $message = "--{$mime_boundary}\n" . "Content-Type: text/html; charset=\"UTF-8\"\n" .
-    "Content-Transfer-Encoding: 7bit\n\n" . $htmlContent . "\n\n";
-    // Preparing attachment
-    if(is_file($uploadedFile)){
-    $message .= "--{$mime_boundary}\n";
-    $fp = @fopen($uploadedFile,"rb");
-    $data = @fread($fp,filesize($uploadedFile));
-    @fclose($fp);
-    $data = chunk_split(base64_encode($data));
-    $message .= "Content-Type: application/octet-stream; name=\"".basename($uploadedFile)."\"\n" .
-    "Content-Description: ".basename($uploadedFile)."\n" .
-    "Content-Disposition: attachment;\n" . " filename=\"".basename($uploadedFile)."\"; size=".filesize($uploadedFile).";\n" .
-    "Content-Transfer-Encoding: base64\n\n" . $data . "\n\n";
-    }
-    $message .= "--{$mime_boundary}--";
-    $returnpath = "-f" . $email;
-    // Send email
-    $mail = mail($toEmail, $emailSubject, $message, $headers, $returnpath);
-    // Delete attachment file from the server
-    @unlink($uploadedFile);
-    }else{
-    // Set content-type header for sending HTML email
-    $headers .= "\r\n". "MIME-Version: 1.0";
-    $headers .= "\r\n". "Content-type:text/html;charset=UTF-8";
-    // Send email
-    $mail = mail($toEmail, $emailSubject, $htmlContent, $headers);
-    }
-    // If mail sent
-    if($mail){
-    $statusMsg = 'Your contact request has been submitted successfully !';
-    $msgClass = 'succdiv';
-    $postData = '';
-    }else{
-    $statusMsg = 'Your contact request submission failed, please try again.';
-    }
-    }
-    }
-    }else{
-    $statusMsg = 'Please fill all the fields.';
-    }
+
+    //read from the uploaded file & base64_encode content
+    $handle = fopen($tmp_name, "r"); // set the file handle only for reading the file
+    $content = fread($handle, $size); // reading the file
+    fclose($handle);                 // close upon completion
+
+    $encoded_content = chunk_split(base64_encode($content));
+    $boundary = md5("random"); // define boundary with a md5 hashed value
+
+    //header
+    $headers = "MIME-Version: 1.0\r\n"; // Defining the MIME version
+    $headers .= "From:" . $from_email . "\r\n"; // Sender Email
+    $headers .= "Reply-To: " . $reply_to_email . "\r\n"; // Email address to reach back
+    $headers .= "Content-Type: multipart/mixed;"; // Defining Content-Type
+    $headers .= "boundary = $boundary\r\n"; //Defining the Boundary
+
+    //plain text
+    $body = "--$boundary\r\n";
+    $body .= "Content-Type: text/plain; charset=ISO-8859-1\r\n";
+    $body .= "Content-Transfer-Encoding: base64\r\n\r\n";
+    $body .= chunk_split(base64_encode($MESSAGE_BODY));
+
+    //attachment
+    $body .= "--$boundary\r\n";
+    $body .= "Content-Type: $type; name=" . $name . "\r\n";
+    $body .= "Content-Disposition: attachment; filename=" . $name . "\r\n";
+    $body .= "Content-Transfer-Encoding: base64\r\n";
+    $body .= "X-Attachment-Id: " . rand(1000, 99999) . "\r\n\r\n";
+    $body .= $encoded_content; // Attaching the encoded file with email
+
+    $sentMailResult = mail($ToEmail, $subject, $body, $headers);
+    if ($sentMailResult) {
+        echo "<script>alert('Enquiry submitted successfully')</script>";
+    } else {
+        echo "<script>alert('Something went wrong')</script>";
     }
 }
+?>
 
 <!DOCTYPE html>
 <html lang="en">
@@ -117,8 +83,13 @@ if(isset($_POST['submit'])){
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Shwet Patra LLP | Services re Acquisition of Land</title>
-    <link rel="canonical" href="index.php" />
+    <title>Shwet Patra LLP | Legal Careers</title>
+    <meta name="description" content="We welcome new talent at Shwet Patra and if you want to start your finance and legal career 
+    with us please fill out the form and we reach out to you as soon as possible."/>
+    <meta name="keywords" content="legal career services, legal career options, legal careers"/>
+    <meta name="google-site-verification" content="ZYVjJ8yY7VAKIxZpg4kOL21H3y7VKWCdl8hQKxB16QQ" />
+    <link rel="canonical" href="http://shwetpatra.com/career" />
+
     <link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital@1&amp;display=swap" rel="stylesheet">
 
 
@@ -144,6 +115,17 @@ if(isset($_POST['submit'])){
 
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@800&amp;display=swap" rel="stylesheet">
     <!--slider css end-->
+
+    <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-82LE9K9R0G"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-82LE9K9R0G');
+</script>
+
 </head>
 
 <body>
@@ -171,50 +153,75 @@ if(isset($_POST['submit'])){
             <div class="row direct1">
                 <h1>Career</h1>
                 <div class="col-md-12">
-                    <form class="mainformcar" action="#">
+                    <form class="mainformcar" action=" " method="post" enctype="multipart/form-data">
 
-                        <div class="form-row">
+                        <div class="form-row row">
                             <div class="form-group col-md-4">
-                                <label for="inputEmail4">First Name</label>
-                                <input type="text" class="form-control" id="inputEmail4" placeholder="First Name">
+                                <label for="inputPassword4">Full Name</label>
+                                <input type="text" name="name" class="form-control" id="inputPassword4" placeholder="Full Name">
                             </div>
                             <div class="form-group col-md-4">
-                                <label for="inputPassword4">Last Name</label>
-                                <input type="text" class="form-control" id="inputPassword4" placeholder="Last Name">
+                                <label for="inputPassword4">Services</label>
+                                <div class="form-group">
+                                    <div class=" ">
+                                        <select name="subject" id="subject">
+                                            <option value="">Select Services</option>
+                                            <option value="Taxation">Taxation</option>
+                                            <option value="Accounting & Audit Support">Accounting Support</option>
+                                            <option value="Risk Assurance Services">Risk Assurance (RAS)</option>
+                                            <option value="Legal & Regulatory">Legal & Regulatory</option>
+                                            <option value="valuation">Valuation</option>
+                                            <option value="land-service">Land Related Services</option>
+                                            <!-- <option value="website-development.php">Website Design & Development</option> -->
+                                            <option value="Startups">Startups</option>
+                                            <option value="Loan Staffing">Loan Staffing</option>
+                                            <option value="Coaching for Leaders">Coaching for Leaders</option>
+                                            <option value="Virtual Chief Financial Officer (vCFO)">Virtual Chief Financial Officer (vCFO)</option>
+                                            <option value="Other">Other</option>
+                                        </select>
+                                    </div>
+                                </div>
                             </div>
+
 
                             <div class="form-group col-md-4">
                                 <label for="inputPassword4">Email</label>
-                                <input type="email" class="form-control" id="Email" placeholder="abc@gmail.com">
+                                <input type="email" name="email" class="form-control" id="Email" placeholder="abc@gmail.com">
                             </div>
+
+                        </div>
+
+                        <div class="form-row row">
 
                             <div class="form-group col-md-4">
                                 <label for="inputPassword4">Mobile Number</label>
-                                <input type="number" class="form-control" id="number" placeholder="Mobile Number">
+                                <input type="number" name="phone" class="form-control" id="number" placeholder="Mobile Number">
                             </div>
 
                             <div class="form-group col-md-4">
                                 <label for="inputPassword4">City</label>
-                                <input type="text" class="form-control" id="City" placeholder="City">
+                                <input type="text" name="city" class="form-control" id="City" placeholder="City">
                             </div>
 
                             <div class="form-group col-md-4">
                                 <label for="inputPassword4">Country</label>
-                                <input type="text" class="form-control" id="Country" placeholder="Country">
+                                <input type="text" name="country" class="form-control" id="Country" placeholder="Country">
                             </div>
+                        </div>
+                        <div class="form-row row">
 
                             <div class="form-group col-md-4">
                                 <label for="inputPassword4">CV Upload</label>
-                                <input type="file" class="form-control" id="Country" placeholder="Country">
+                                <input type="file" name="attachment" class="form-control" id="Country" placeholder="Country">
                             </div>
                             <div class="form-group col-md-4">
                                 <label for="inputPassword4">Number of years of experience</label>
-                                <input type="number" class="form-control" id="number" placeholder="Years of experience">
+                                <input type="number" name="experience" class="form-control" id="number" placeholder="Years of experience">
                             </div>
                         </div>
                 </div>
                 <div class="submitbtn">
-                    <button class="clsubmithd" type="submit" style="color:#fff;">Submit</button>
+                    <button class="clsubmithd" type="submit" name="submit" style="color:#fff;">Submit</button>
                 </div>
                 </form>
             </div>
@@ -222,7 +229,7 @@ if(isset($_POST['submit'])){
         </div>
     </section>
 
-    
+
     <!-- footer section start here  -->
 
     <?php include('footer.php'); ?>

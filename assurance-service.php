@@ -6,7 +6,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Shwet Patra LLP | Risk Assurance</title>
-    <link rel="canonical" href="index.php" />
+    <meta name="description" content="We have the best risk assurance service providers at Shwet Patra. Our RSA advisor professionals 
+    will help you with internal audits, verification, and fraud investigations"/>
+    <meta name="keywords" content="best risk assurance service providers, best risk assurance service providers in india, Risk And Assurance Service"/>
+    <link rel="canonical" href="http://shwetpatra.com/assurance-service"/>
+    <meta name="google-site-verification" content="ZYVjJ8yY7VAKIxZpg4kOL21H3y7VKWCdl8hQKxB16QQ" />
+
     <link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital@1&amp;display=swap" rel="stylesheet">
 
 
@@ -32,6 +37,17 @@
     <link href="assets/mailchump-css/classic-10_7.css" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@800&amp;display=swap" rel="stylesheet">
     <!--slider css end-->
+
+    <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-82LE9K9R0G"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-82LE9K9R0G');
+</script>
+
 </head>
 
 <body>
@@ -66,7 +82,7 @@
     <section class="risk-sec">
         <div class="container">
             <div class="row">
-                <div class="col-md-4">
+                <div class="col-md-4 nththird">
 
                     <div class="assurance-taxs-name">
                         <h3>RAS Advisory</h3>
@@ -83,7 +99,7 @@
                     </div>
                 </div>
 
-                <div class="col-md-4">
+                <div class="col-md-4 nthfirst">
 
                     <div class="assurance-taxs-name">
                         <h3>Procedures & Controls</h3>
@@ -102,7 +118,7 @@
                     </div>
                 </div>
 
-                <div class="col-md-4">
+                <div class="col-md-4 nthsecond">
 
                     <div class="assurance-taxs-name">
                         <h3>Audit & Verification</h3>

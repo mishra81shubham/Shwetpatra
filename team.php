@@ -6,7 +6,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Shwet Patra LLP | Team</title>
-    <link rel="canonical" href="index.php" />
+    <meta name="description" content="We have world-class core team members to fulfill all your business-related services for example 
+    indirect tax, accounting, assurance, risk assurance & other business-related works."/>
+    <meta name="keywords" content="team members, accounting, indirect tax"/>
+    <link rel="canonical" href="http://shwetpatra.com/team"/>
+    <meta name="google-site-verification" content="ZYVjJ8yY7VAKIxZpg4kOL21H3y7VKWCdl8hQKxB16QQ"/>
+
     <link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital@1&amp;display=swap" rel="stylesheet">
 
 
@@ -33,6 +38,16 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@800&amp;display=swap" rel="stylesheet">
     <!--slider css end-->
 
+    <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-82LE9K9R0G"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-82LE9K9R0G');
+</script>
+
 </head>
 
 <body>
@@ -54,7 +69,7 @@
             <div class="row">
                 <div class="col-md-4">
                     <div class="imghermng">
-                        <img src="assets/img/amit.jpg" alt="amit">
+                      <a href="https://www.linkedin.com/in/amitsinghalbdo"><img src="assets/img/amit.jpg" alt="amit"></a> 
                         <div class="namdagis">
                             <h4>Areas of Expertise:</h4>
                             <ul class="taxpaymon">
@@ -106,7 +121,7 @@
             <div class="row">
                 <div class="col-md-4">
                     <div class="imghermng">
-                        <img src="assets/img/harish.png" alt="amit">
+                     <a href="https://www.linkedin.com/in/harish-balhara-94aa9b28/"><img src="assets/img/harish.png" alt="amit"></a>
                         <div class="namdagis">
                             <h4>Areas of Expertise:</h4>
                             <ul class="taxpaymon">
@@ -151,7 +166,7 @@
             <div class="row">
                 <div class="col-md-4">
                     <div class="imghermng">
-                        <img src="assets/img/gurminder.png" alt="amit">
+                   <a href="https://www.linkedin.com/in/gurminder-s-48117215b/"> <img src="assets/img/gurminder.png" alt="amit"></a> 
                         <div class="namdagis">
                             <h4>Areas of Expertise:</h4>
                             <ul class="taxpaymon">
@@ -207,7 +222,7 @@
             <div class="row">
                 <div class="col-md-4">
                     <div class="imghermng">
-                        <img src="assets/img/varun.jpg" alt="amit">
+                    <a href="https://www.linkedin.com/in/varun-singhal-883782a/"><img src="assets/img/varun.jpg" alt="amit"></a>   
                         <div class="namdagis">
                             <h4>Areas of Expertise:</h4>
                             <ul class="taxpaymon">
@@ -264,7 +279,7 @@
             <div class="row">
                 <div class="col-md-4">
                     <div class="imghermng">
-                        <img src="assets/img/sandhya.jpg" alt="amit">
+                     <a href="https://www.linkedin.com/in/sandhya-tanwar-48468824/"><img src="assets/img/sandhya.jpg" alt="amit"></a>   
                         <div class="namdagis">
                             <h4>Areas of Expertise:</h4>
                             <ul class="taxpaymon">
@@ -319,7 +334,7 @@
             <div class="row">
                 <div class="col-md-4">
                     <div class="imghermng">
-                        <img src="assets/img/rishi.jpg" alt="rishi">
+                      <a href="https://www.linkedin.com/in/carishikapoor/"><img src="assets/img/rishi.jpg" alt="rishi"></a>  
                         <div class="namdagis">
                             <h4>Areas of Expertise:</h4>
                             <ul class="taxpaymon">
@@ -368,7 +383,7 @@
             <div class="row">
                 <div class="col-md-4">
                     <div class="imghermng">
-                        <img src="assets/img/vasu.jpg" alt="vasu">
+                     <a href="#"><img src="assets/img/vasu.jpg" alt="vasu"></a>   
                         <div class="namdagis">
                             <h4>Areas of Expertise:</h4>
                             <ul class="taxpaymon">
@@ -417,7 +432,7 @@
             <div class="row">
                 <div class="col-md-4">
                     <div class="imghermng">
-                        <img src="assets/img/rakhee.jpg" alt="rakhee">
+                     <a href="https://www.linkedin.com/in/sharma-rakhee/"><img src="assets/img/rakhee.jpg" alt="rakhee"></a>   
                         <div class="namdagis">
                             <h4>Areas of Expertise:</h4>
                             <ul class="taxpaymon">
@@ -429,15 +444,15 @@
 
                         <div class="namdagis1">
                             <h4>Educational & Professional Qualifications:</h4>
-                            <ul class="taxpaymon">
-                                <li>M.A. (Indian Classical Vocal Music)</li>
-                                <li>B.Ed.</li>
+                            <ul class="taxpaymon">                            
                                 <li>Leadership & Management, ISB</li>
-                                <li>Professional Certified Coach - International Coaching Federation, USA</li>
+                                <li>Professional Certified Coach - ICF, USA</li>
                                 <li>SCC, Marshall Goldsmith</li>
                                 <li>Conversational Intelligence for Coaches (Enhanced Program)</li>
                                 <li>Transactional Analysis, Advance</li>
                                 <li>Mindfulness Teacher, Plum Village Tradition</li>
+                                <li>B.Ed.</li>
+                                <li>M.A. (Indian Classical Vocal Music)</li>
                             </ul>
                         </div>
                     </div>

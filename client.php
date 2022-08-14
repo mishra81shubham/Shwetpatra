@@ -6,7 +6,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Shwet Patra LLP | Clients</title>
-    <link rel="canonical" href="index.php" />
+    <meta name="description" content="Look what our clients say about us and fill free to ask any questions from our team members. 
+    We are here to help you with our highly skilled and experienced remembers."/>
+    <meta name="keywords" content="Clients, Shwet Patra LLP."/>
+    <meta name="google-site-verification" content="ZYVjJ8yY7VAKIxZpg4kOL21H3y7VKWCdl8hQKxB16QQ" />
+    <link rel="canonical" href="http://shwetpatra.com/client" />
     <link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital@1&amp;display=swap" rel="stylesheet">
 
 
@@ -33,6 +37,16 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@800&amp;display=swap" rel="stylesheet">
     <!--slider css end-->
 
+    <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-82LE9K9R0G"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-82LE9K9R0G');
+</script>
+
 </head>
 
 <body>
@@ -43,6 +57,8 @@
     <!-- client review start here -->
 
     <main id="tg-main" class="tg-main tg-haslayout">
+
+
         <section class="tg-main-section tg-haslayout satisfiedCustomers">
             <div class="container">
                 <div class="row">
@@ -53,6 +69,7 @@
                             </div>
                         </div>
                     </div>
+                 
                     <div id="tg-testimonialsslider" class="tg-testimonialsslider owl-carousel tg-clientfeedback">
 
                         <div class="item tg-testimonial">
@@ -440,6 +457,103 @@
                         </div>
 
 
+                        <div class="item tg-testimonial">
+                            <blockquote>I have known and worked with Amit for 15 years. A wonderful relationship. He is a highly skilled and experienced tax expert dealing with complex international tax, transfer pricing and other matters. He is very approachable, has strong interpersonal skills, is highly committed, carring and passionate supporting clients.</blockquote>
+                            <div class="tg-clientinfo">
+                                <figure>
+                                    <a href="#"><img src="assets/img/img_av.png" alt="CA" title="man"></a>
+                                </figure>
+                                <div class="tg-namecountery">
+                                    <h4><a href="javascript:void(0)">Boota Dhillon, Consultant based in UAE</a></h4>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <!-- 12-08-2022 edit client review start here  -->
+
+
+                        <div class="item tg-testimonial">
+                            <blockquote>Sandhya worked with me on several interesting and important assignments. She brings on to the table her deep experience in risk & legal and ability to understand difficult problems / situations. This helps us in solving critical client problems. She is self-driven and is always curious to know/learn more and beyond her engagement which gives her edge over her peers as she is able to understand the environment better. Great team-player and will always be successful in her life.</blockquote>
+                            <div class="tg-clientinfo">
+                                <figure>
+                                    <a href="#"><img src="assets/img/client/murty.jpg" alt="CA" title="man"></a>
+                                </figure>
+                                <div class="tg-namecountery">
+                                    <h4><a href="javascript:void(0)">NSN Murty,  Partner | Government & Public Services Consulting Leader </a></h4>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="item tg-testimonial">
+                            <blockquote>Sandhya is a person who takes pride in her work and has exceptional communication skills. Having worked with her realized her potential in being able to have a clear understanding of the problem statement of the client and thereafter ability to present a solution. Another professional trait that needs a mention is her capability to connect the dots and present a cohesive answer to the client. </blockquote>
+                            <div class="tg-clientinfo">
+                                <figure>
+                                    <a href="#"><img src="assets/img/client/gautam.jpg" alt="CA" title="man"></a>
+                                </figure>
+                                <div class="tg-namecountery">
+                                    <h4><a href="javascript:void(0)">Cdr Gautam Nanda,  Associate Partner, Aerospace and Defence</a></h4>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="item tg-testimonial">
+                            <blockquote>Varun is an intelligent, experienced and enthusiast professional with great focus on governance. His stakeholders management skills are exemplary. Right from being rankholder in CA till current level he is seen as a reputed gocernance professional. While working in HCL his contribution to the success of function was valuable.</blockquote>
+                            <div class="tg-clientinfo">
+                                <figure>
+                                    <a href="#"><img src="assets/img/client/chander.jpg" alt="CA" title="man"></a>
+                                </figure>
+                                <div class="tg-namecountery">
+                                    <h4><a href="javascript:void(0)">Chander Shakher Arora,  Internal Audit, Risk Management</a></h4>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="item tg-testimonial">
+                            <blockquote>Varun was part of our audit team for a leading technology company. Varun has shown diligence, care for detail and leadership qualities that should be nurtured. The assignment also brought out his depth in technical skills in accounting and auditing. He is comfortable handling responsibilities and and is an initiative taker. He was a great asset for our team and I'm sure he will continue to add value wherever he goes.</blockquote>
+                            <div class="tg-clientinfo">
+                                <figure>
+                                    <a href="#"><img src="assets/img/client/vijay.jpg" alt="CA" title="man"></a>
+                                </figure>
+                                <div class="tg-namecountery">
+                                    <h4><a href="javascript:void(0)">Vijay A M,  Finance at MPL</a></h4>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="item tg-testimonial">
+                            <blockquote>Rishi is a thorough finance professional with a lot of ideas. He is always eager to make a
+difference. Rishi always contributes effectively with his domain expertise and great attitude. His great business acumen helps him work closely with business leaders towards the
+organization’s growth. He always works with a team spirit and is a good mentor. I wish all the
+best to him for his career progression.</blockquote>
+                            <div class="tg-clientinfo">
+                                <figure>
+                                    <a href="#"><img src="assets/img/client/ritesh.jpg" alt="CA" title="man"></a>
+                                </figure>
+                                <div class="tg-namecountery">
+                                    <h4><a href="javascript:void(0)">Ritesh Narayan,  Associate Director - Corporate Sales at TMF Group</a></h4>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="item tg-testimonial">
+                            <blockquote>Rishi truly deserves to be in accuracy field and he is in … we need finance man like Rishi who has good grip on figures … Rishi is smart and accurate too … he will grow in his field … Good luck Rishi.</blockquote>
+                            <div class="tg-clientinfo">
+                                <figure>
+                                    <a href="#"><img src="assets/img/client/nitin.jpg" alt="CA" title="man"></a>
+                                </figure>
+                                <div class="tg-namecountery">
+                                    <h4><a href="javascript:void(0)">Nitin N Shah,  President & COO</a></h4>
+                                </div>
+                            </div>
+                        </div>
+
+
                     </div>
 
                 </div>
@@ -447,6 +561,7 @@
             </div>
         </section>
 
+     
 
     </main>
 

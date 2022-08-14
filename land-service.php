@@ -6,7 +6,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Shwet Patra LLP | Services re Acquisition of Land</title>
-    <link rel="canonical" href="index.php" />
+    <meta name="description" content="At Shwet Patra LLP we provide land-related services which include acquiring land, 
+    Assisting in filling up applications for the acquisition of land, and other land-related services."/>
+    <meta name="keywords" content="land acquisition, land-related services, acquisition cost"/>
+    <meta name="google-site-verification" content="ZYVjJ8yY7VAKIxZpg4kOL21H3y7VKWCdl8hQKxB16QQ" />
+
+    <link rel="canonical" href="http://shwetpatra.com/land-service" />
+
     <link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital@1&amp;display=swap" rel="stylesheet">
 
 
@@ -32,6 +38,17 @@
 
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@800&amp;display=swap" rel="stylesheet">
     <!--slider css end-->
+
+    <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-82LE9K9R0G"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-82LE9K9R0G');
+</script>
+
 </head>
 
 <body>
@@ -142,6 +159,9 @@
                     </li>
                     <li><i class="fa-solid fa-star"></i> &nbsp;
                         <p>Evaluating the tax implification of related land cost</p>
+                    </li>
+                    <li><i class="fa-solid fa-star"></i> &nbsp;
+                        <p>Evaluation of various Central and State government incentives and assistance in availing them</p>
                     </li>
                 </ul>
             </div>

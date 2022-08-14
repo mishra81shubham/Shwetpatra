@@ -6,8 +6,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Shwet Patra LLP | Taxation</title>
-    <link rel="canonical" href="index.php" />
+    <meta name="description" content="We provide taxation services like direct tax, indirect tax, and transfer pricing. Our professionals 
+    help you with all kinds of taxation services like GST, VAT, etc."/>
+    <meta name="keywords" content="Taxation Serives, taxation services in india, tax services near me"/>
+    <link rel="canonical" href="http://shwetpatra.com/taxation"/> 
+
+   
     <link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital@1&amp;display=swap" rel="stylesheet">
+
+    <meta name="google-site-verification" content="ZYVjJ8yY7VAKIxZpg4kOL21H3y7VKWCdl8hQKxB16QQ" />
 
 
     <link rel="icon" type="image/png" sizes="16x16" href="assets/img/favicon.png">
@@ -32,6 +39,17 @@
 
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@800&amp;display=swap" rel="stylesheet">
     <!--slider css end-->
+
+    <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-82LE9K9R0G"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-82LE9K9R0G');
+</script>
+
 </head>
 
 <body>
@@ -188,6 +206,7 @@
                             <li>Litigation, advance ruling and other support</li>
                             <li>Periodic Compliance including various return filings, maintaining statutory records, calculation of input credits and tax liability , assisting in refunds, etc.</li>
                             <li> GST Training services</li>
+                            <li>Assitance in GST Audit </li>
                         </ul>
                     </div>
                 </div>

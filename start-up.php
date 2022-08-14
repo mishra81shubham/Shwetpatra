@@ -6,7 +6,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Shwet Patra LLP | Services re Acquisition of Land</title>
-    <link rel="canonical" href="index.php" />
+    <meta name="description" content="We help startups to grow fastly by providing our best Intellectual Property Registration 
+    (IPR) and obtaining various tax and other central and state incentives."/>
+    <meta name="keywords" content="land acquisition, Property Registration, obtaining various tax "/>
+    <meta name="google-site-verification" content="ZYVjJ8yY7VAKIxZpg4kOL21H3y7VKWCdl8hQKxB16QQ" />
+
+
+    <link rel="canonical" href="http://shwetpatra.com/start-up"/>
+
     <link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital@1&amp;display=swap" rel="stylesheet">
 
 
@@ -32,6 +39,17 @@
 
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@800&amp;display=swap" rel="stylesheet">
     <!--slider css end-->
+
+    <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-82LE9K9R0G"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-82LE9K9R0G');
+</script>
+
 </head>
 
 <body>
@@ -70,10 +88,10 @@
 
                 <ul class="list-land">
                     <li><i class="fa-solid fa-star"></i> &nbsp;
-                        <p>Organising visit for acquiring land in the region of Delhi NCR</p>
+                        <p>Conceptualising the efficient entity structure for start-up including considering overseas jurisdictions</p>
                     </li>
                     <li><i class="fa-solid fa-star"></i> &nbsp;
-                        <p>Providing our recommendations/suggestions for finalising land after visits in discussions with the stakeholders</p>
+                        <p>Implementation of the selected entity structure</p>
                     </li>
                 </ul>
             </div>
@@ -83,55 +101,28 @@
 
                 <ul class="list-land">
                     <li><i class="fa-solid fa-star"></i> &nbsp;
-                        <p>Assisting in filling up application for acquisition of land.</p>
+                        <p>Obtaining various central and state registrations including Intellectual Property registration </p>
                     </li>
                     <li><i class="fa-solid fa-star"></i> &nbsp;
-                        <p>Liaisoning with the designated authority/state government/private enterprise as the case may be for acquisition of the land.</p>
+                        <p>Accounting including project accounting of the business and maintenance of the documentations for meeting law of the land</p>
                     </li>
                     <li><i class="fa-solid fa-star"></i> &nbsp;
-                        <p>Assistance in preparation of the documents required for acquisition of the land e.g. filling an application, etc on the basis of the information to be provided.</p>
+                        <p>Tax compliance and Advisory work</p>
                     </li>
                     <li><i class="fa-solid fa-star"></i> &nbsp;
-                        <p>Preparation of various documents including Project Report for submission of application on the basis of the information provided to us.</p>
+                        <p>Obtaining various tax and other central and state incentives</p>
                     </li>
                     <li><i class="fa-solid fa-star"></i> &nbsp;
-                        <p>Helping the Company for signing the memorandum of understanding with the State Government if required.</p>
+                        <p>Assistance in acquiring land for proposed manufacturing operation </p>
+                    </li>
+                    <li><i class="fa-solid fa-star"></i> &nbsp;
+                        <p>Payroll management</p>
                     </li>
                 </ul>
             </div>
 
             <div>
                 
-
-                <ul class="list-land">
-                    <li><i class="fa-solid fa-star"></i> &nbsp;
-                        <p>Assistance in making documentation for allotment letter.</p>
-                    </li>
-                    <li><i class="fa-solid fa-star"></i> &nbsp;
-                        <p>Assistance in getting allotment letter, if applicable from the authority.</p>
-                    </li>
-                    <li><i class="fa-solid fa-star"></i> &nbsp;
-                        <p>Assistance in making documentation for possession letter.</p>
-                    </li>
-                    <li><i class="fa-solid fa-star"></i> &nbsp;
-                        <p>Coordination with the authority for getting the possession letter, if any.</p>
-                    </li>
-                    <li><i class="fa-solid fa-star"></i> &nbsp;
-                        <p>Assistance in filing application for stamp duty exemption in case of new allotment of land.</p>
-                    </li>
-                    <li><i class="fa-solid fa-star"></i> &nbsp;
-                        <p>Replying to queries raised by department and resubmitting the application if needed.</p>
-                    </li>
-                    <li><i class="fa-solid fa-star"></i> &nbsp;
-                        <p>Assistance in making documentation for lease deed.</p>
-                    </li>
-                    <li><i class="fa-solid fa-star"></i> &nbsp;
-                        <p>Coordination with the authority and the Registrar for getting the lease deed registered, if any.</p>
-                    </li>
-                    <li><i class="fa-solid fa-star"></i> &nbsp;
-                        <p>Assistance in generation of Form 26QB and Form 16B (TDS on acquiring land).</p>
-                    </li>
-                </ul>
             </div>
 
         </div>

@@ -14,7 +14,7 @@
                                 <div class="mobile-menu-close">&times;</div>
                             </div>
 
-                            <a class="brandlogohere" href="index.php">
+                            <a class="brandlogohere" href="index">
                                 <img src="assets/img/logo.png" alt="logo">
                             </a>
                             <ul class="menu-main">
@@ -29,36 +29,37 @@
                                     <a href="#" class="">Services <i class="fa fa-caret-down"></i></a>
                                     <div class="sub-menu single-column-menu">
                                         <ul>
-                                            <li><a href="taxation.php"><i class="mngheadstar fa-solid fa-star"></i> Taxation</a></li>
-                                            <li><a href="audit-support.php"><i class="mngheadstar fa-solid fa-star"></i> Accounting Support</a></li>
-                                            <li><a href="assurance-service.php"><i class="mngheadstar fa-solid fa-star"></i> Risk Assurance</a></li>
-                                            <li><a href="regullatory-service.php"><i class="mngheadstar fa-solid fa-star"></i> Legal & Regulatory</a></li>
-                                            <li><a href="valuation.php"><i class="mngheadstar fa-solid fa-star"></i> Valuation</a></li>
-                                            <li><a href="land-service.php"><i class="mngheadstar fa-solid fa-star"></i> Land Related Services</a></li>
-                                            <li><a href="start-up.php"><i class="mngheadstar fa-solid fa-star"></i> Startups</a></li>
-                                            <li><a href="loan-staffing.php"><i class="mngheadstar fa-solid fa-star"></i> Loan Staffing</a></li>
-                                            <li><a href="executive-leader.php"><i class="mngheadstar fa-solid fa-star"></i> Coaching for Women Leaders</a></li>
-                                            <li><a style="text-transform: inherit;" href="vcfo.php"><i class="mngheadstar fa-solid fa-star"></i> Virtual Chief Financial Officer (vCFO)</a></li>
-                                            <!-- <li><a href="website-development.php">Website Design & Development</a></li> -->
+
+                                            <li><a href="taxation"><i class="mngheadstar fa-solid fa-star"></i> Taxation</a></li>
+                                            <li><a href="audit-support"><i class="mngheadstar fa-solid fa-star"></i> Accounting Support</a></li>
+                                            <li><a href="assurance-service"><i class="mngheadstar fa-solid fa-star"></i> Risk Assurance</a></li>
+                                            <li><a href="regullatory-service"><i class="mngheadstar fa-solid fa-star"></i> Legal & Regulatory</a></li>
+                                            <li><a href="valuation"><i class="mngheadstar fa-solid fa-star"></i> Valuation</a></li>
+                                            <li><a href="land-service"><i class="mngheadstar fa-solid fa-star"></i> Land Related Services</a></li>
+                                            <li><a href="start-up"><i class="mngheadstar fa-solid fa-star"></i> Startups</a></li>
+                                            <li><a href="loan-staffing"><i class="mngheadstar fa-solid fa-star"></i> Loan Staffing</a></li>
+                                            <li><a style="text-transform: inherit;" href="vcfo"><i class="mngheadstar fa-solid fa-star"></i> Virtual Chief Financial Officer (vCFO)</a></li>
+                                            <li><a href="executive-leader"><i class="mngheadstar fa-solid fa-star"></i> Executive Coaching for Leaders</a></li>
+                                            <!-- <li><a href="website-development">Website Design & Development</a></li> -->
                                         </ul>
                                     </div>
                                 </li>
                                 <li>
-                                    <a href="team.php" class="">Our Team</a>
+                                    <a href="team" class="">Our Team</a>
                                 </li>
                                 <li>
-                                    <a href="client.php" class="">Encomia</a>
+                                    <a href="client" class="">Encomia</a>
                                 </li>
 
                                 <li>
-                                    <a href="career.php" class="">Career</a>
+                                    <a href="career" class="">Career</a>
                                 </li>
 
 
                                 <li>
-                                    <a href="contact-us.php" class="">Contact us</a>
+                                    <a href="contact-us" class="">Contact us</a>
                                 </li>
-                             
+
 
                             </ul>
                         </nav>
@@ -68,8 +69,8 @@
                     </div>
 
                     <div class="mobilelog">
-                        <a href="index.php">
-                        <img src="assets/img/logo.png" alt="logo">
+                        <a href="index">
+                            <img src="assets/img/logo.png" alt="logo">
                         </a>
                     </div>
 

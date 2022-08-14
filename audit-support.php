@@ -5,9 +5,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Shwet Patra LLP | ACCOUNTING SUPPORT 
-    </title>
-    <link rel="canonical" href="index.php" />
+    <title>Shwet Patra LLP | ACCOUNTING SUPPORT</Title>
+    <meta name="description" content="At Shwet Patra we give you accounting support with our highly experienced team of CA. 
+     who help you with accounting works like maintenance of books of accounts, etc."/>
+    <meta name="keywords" content="accounting services, ACCOUNTING SUPPORT, accounting support specialist, accounting support services"/>
+    <meta name="google-site-verification" content="ZYVjJ8yY7VAKIxZpg4kOL21H3y7VKWCdl8hQKxB16QQ" />
+    <link rel="canonical" href="http://shwetpatra.com/audit-support"/>
     <link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital@1&amp;display=swap" rel="stylesheet">
 
 
@@ -33,6 +36,17 @@
     <link href="assets/mailchump-css/classic-10_7.css" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@800&amp;display=swap" rel="stylesheet">
     <!--slider css end-->
+
+    <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-82LE9K9R0G"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-82LE9K9R0G');
+</script>
+
 </head>
 
 <body>

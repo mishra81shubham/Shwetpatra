@@ -962,7 +962,7 @@
     .taxation-banner h1 {
         position: absolute;
         top: 38%;
-    left: 16%;
+        left: 16%;
         color: #fff;
         font-weight: bolder;
         font-size: 30px;
@@ -974,7 +974,7 @@
         text-align: center;
     }
     .indirect-list-taxs1 {
-        height: 311px;
+        height: 352px;
         margin-bottom: 15px;
     }
     .indirect-list-taxs2 {
@@ -991,7 +991,7 @@
         font-size: 30px;
         text-align: center;
         top: 50%;
-        left: 10%;
+        left: 6%;
     }
     .approach {
         height: 90px;
@@ -1002,8 +1002,8 @@
     .risk-banner h1 {
         font-size: 28px;
         text-align: center;
-        top: 42%;
-        left: 5%;
+        top: 51%;
+        left: 2%;
     }
     .assurance-taxs-name {
         height: 90px;
@@ -1013,7 +1013,7 @@
         margin-top: 10px;
     }
     .risk-sec {
-        margin-top: 45px;
+        margin-top: 0px;
         margin-bottom: 45px;
     }
     .legal-banner h1 {
@@ -1038,16 +1038,16 @@
         font-weight: bolder;
         font-size: 30px;
     }
-    .list-land li{
+    .list-land li {
         padding-left: 5px;
     }
-    .loanstaffhead{
+    .loanstaffhead {
         left: 23% !important;
     }
-    .mngpare{
+    .mngpare {
         padding: 20px;
     }
-    .tg-main-section .owl-nav .owl-next{
+    .tg-main-section .owl-nav .owl-next {
         display: none;
     }
     .indirect-taxs-name {
@@ -1061,14 +1061,14 @@
         margin-bottom: 15px;
     }
     .legal-list-taxs2 {
-        height: 360px;
+        height: 440px;
         margin-bottom: 15px;
     }
     .legal-list-taxs3 {
         height: 300px;
     }
     .legal-list-taxs4 {
-        height: 300px;
+        height: 335px;
         margin-bottom: 15px;
     }
     .legal-list-taxs5 {
@@ -1202,5 +1202,29 @@
     }
     ._dfj1 {
         margin-top: 85px;
+    }
+    .nththird {
+        margin-bottom: 40px;
+    }
+    .nthfirst {
+        margin-bottom: 40px;
+    }
+    .nthsecond {
+        margin-bottom: 40px;
+    }
+    .nthsecond .assurance-list-taxs {
+        height: 300px;
+    }
+    .regnththird {
+        margin-bottom: 40px;
+    }
+    .regnthfirst {
+        margin-bottom: 40px;
+    }
+    .regnthsecond {
+        margin-bottom: 40px;
+    }
+    .mngheadstar1{
+        font-size: 18px;
     }
 }

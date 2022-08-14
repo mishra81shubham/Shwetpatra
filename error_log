@@ -1,0 +1,46 @@
+[10-Aug-2022 16:02:48 UTC] PHP Notice:  Undefined index: cvupload in /home/c7htcoeqjfl4/public_html/career.php on line 4
+[10-Aug-2022 16:02:48 UTC] PHP Notice:  Undefined index: cvupload in /home/c7htcoeqjfl4/public_html/career.php on line 17
+[10-Aug-2022 16:11:29 UTC] PHP Notice:  Undefined index: cvupload in /home/c7htcoeqjfl4/public_html/career.php on line 4
+[10-Aug-2022 16:11:29 UTC] PHP Notice:  Undefined index: cvupload in /home/c7htcoeqjfl4/public_html/career.php on line 17
+[10-Aug-2022 16:11:29 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function From: software81front@gmail.com
+Reply-To: software81front@gmail.com
+Content-type: text/html; charset=iso-8859-1
+() in /home/c7htcoeqjfl4/public_html/career.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/c7htcoeqjfl4/public_html/career.php on line 19
+[10-Aug-2022 16:12:07 UTC] PHP Notice:  Undefined index: cvupload in /home/c7htcoeqjfl4/public_html/career.php on line 4
+[10-Aug-2022 16:12:07 UTC] PHP Notice:  Undefined index: cvupload in /home/c7htcoeqjfl4/public_html/career.php on line 17
+[10-Aug-2022 16:12:07 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function From: software81front@gmail.com
+Reply-To: software81front@gmail.com
+Content-type: text/html; charset=iso-8859-1
+() in /home/c7htcoeqjfl4/public_html/career.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/c7htcoeqjfl4/public_html/career.php on line 19
+[10-Aug-2022 16:13:10 UTC] PHP Notice:  Undefined index: cvupload in /home/c7htcoeqjfl4/public_html/career.php on line 4
+[10-Aug-2022 16:13:10 UTC] PHP Notice:  Undefined index: cvupload in /home/c7htcoeqjfl4/public_html/career.php on line 17
+[10-Aug-2022 16:13:10 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function Last Name: Mishra<br>Email: software81front@gmail.com<br>Phone: 8840740929<br>City: Ayodhya<br>Country: India<br>CV: <br>Experience: 12<br>() in /home/c7htcoeqjfl4/public_html/career.php:19
+Stack trace:
+#0 {main}
+  thrown in /home/c7htcoeqjfl4/public_html/career.php on line 19
+[10-Aug-2022 16:43:50 UTC] PHP Notice:  Undefined index: file in /home/c7htcoeqjfl4/public_html/career.php on line 4
+[10-Aug-2022 16:43:50 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/c7htcoeqjfl4/public_html/career.php on line 4
+[10-Aug-2022 16:43:50 UTC] PHP Notice:  Undefined index: file in /home/c7htcoeqjfl4/public_html/career.php on line 5
+[10-Aug-2022 16:43:50 UTC] PHP Notice:  Trying to access array offset on value of type null in /home/c7htcoeqjfl4/public_html/career.php on line 5
+[10-Aug-2022 16:43:50 UTC] PHP Notice:  Undefined index: message in /home/c7htcoeqjfl4/public_html/career.php on line 8
+[10-Aug-2022 16:43:50 UTC] PHP Warning:  file_get_contents(): Filename cannot be empty in /home/c7htcoeqjfl4/public_html/career.php on line 16
+[10-Aug-2022 17:14:22 UTC] PHP Notice:  Undefined index: cvupload in /home/c7htcoeqjfl4/public_html/career.php on line 23
+[10-Aug-2022 17:14:24 UTC] PHP Notice:  Undefined index: cvupload in /home/c7htcoeqjfl4/public_html/career.php on line 23
+[10-Aug-2022 17:17:38 UTC] PHP Notice:  Undefined index: cvupload in /home/c7htcoeqjfl4/public_html/career.php on line 23
+[10-Aug-2022 17:19:55 UTC] PHP Notice:  Undefined index: cvupload in /home/c7htcoeqjfl4/public_html/career.php on line 23
+[10-Aug-2022 17:40:38 UTC] PHP Notice:  Undefined index: subject in /home/c7htcoeqjfl4/public_html/career.php on line 21
+[10-Aug-2022 17:42:19 UTC] PHP Notice:  Undefined index: subject in /home/c7htcoeqjfl4/public_html/career.php on line 21
+[12-Aug-2022 04:30:41 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function smtp_mailer() in /home/c7htcoeqjfl4/public_html/contact-us.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/c7htcoeqjfl4/public_html/contact-us.php on line 6
+[12-Aug-2022 04:31:55 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function smtp_mailer() in /home/c7htcoeqjfl4/public_html/contact-us.php:6
+Stack trace:
+#0 {main}
+  thrown in /home/c7htcoeqjfl4/public_html/contact-us.php on line 6

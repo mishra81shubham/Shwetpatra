@@ -6,7 +6,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Shwet Patra LLP | Legal & Regulatory</title>
-    <link rel="canonical" href="index.php" />
+    <meta name="description" content="Our world class legal and regulatory services include human resource regulation, SEBI regulation, 
+     exchange control regulation, SoSec Services, and transaction documentation."/>
+    <meta name="keywords" content="regulatory services, legal Services, regulatory technology services, regulatory support services"/>
+    <link rel="canonical" href="http://shwetpatra.com/regullatory-service"/>
+    <meta name="google-site-verification" content="ZYVjJ8yY7VAKIxZpg4kOL21H3y7VKWCdl8hQKxB16QQ" />
+
+
+    
     <link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital@1&amp;display=swap" rel="stylesheet">
 
 
@@ -32,6 +39,18 @@
     <link href="assets/mailchump-css/classic-10_7.css" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@800&amp;display=swap" rel="stylesheet">
     <!--slider css end-->
+
+
+    <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-82LE9K9R0G"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-82LE9K9R0G');
+</script>
+
 </head>
 
 <body>
@@ -66,7 +85,7 @@
     <section class="taxtype-sec">
         <div class="container">
             <div class="row">
-                <div class="col-md-4">
+                <div class="col-md-4 regnthfirst">
 
                     <div class="indirect-taxs-name">
                         <h3>Entity Governance & Compliance
@@ -86,7 +105,7 @@
                     </div>
                 </div>
 
-                <div class="col-md-4">
+                <div class="col-md-4 regnthsecond">
 
                     <div class="indirect-taxs-name">
                         <h3>CoSec Support Services</h3>
@@ -109,7 +128,7 @@
                     </div>
                 </div>
 
-                <div class="col-md-4">
+                <div class="col-md-4 regnththird">
 
                     <div class="indirect-taxs-name">
                         <h3>Human Resource Regulations
@@ -133,7 +152,7 @@
 
 
             <div class="row exchange-control">
-                <div class="col-md-4">
+                <div class="col-md-4 regnththird">
 
                     <div class="indirect-taxs-name">
                         <h3>Transaction Documentation
@@ -158,7 +177,7 @@
                     </div>
                 </div>
 
-                <div class="col-md-4">
+                <div class="col-md-4 regnththird">
 
                     <div class="indirect-taxs-name">
                         <h3>Exchange Control Regulations
@@ -177,7 +196,7 @@
                     </div>
                 </div>
 
-                <div class="col-md-4">
+                <div class="col-md-4 regnththird">
 
                     <div class="indirect-taxs-name">
                         <h3>SEBI Regulations
