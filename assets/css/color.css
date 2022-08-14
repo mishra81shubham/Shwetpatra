@@ -1,0 +1,81 @@
+.tg-404content span,
+.tg-btn,
+.tg-formtitle,
+.tg-hasdropdown>ul>li:hover>a,
+.tg-hasdropdown>ul>li>a:hover,
+.tg-namecountery h4:hover a,
+.tg-navigation>ul>li>a,
+.tg-sectiontitle h3,
+.tg-service:hover .tg-heading h4 a,
+.tg-service:hover .tg-seviceicon i,
+.tg-socialicons li a:hover i,
+.tg-testimonial:hover .tg-namecountery h4 a,
+.tg-testimonial:hover:before,
+.tg-topcontactinfo li span a:hover,
+.tg-widget ul li a:hover,
+a,
+a:active,
+a:focus,
+a:hover,
+blockquote:after,
+blockquote:before,
+p a,
+p a:hover {
+    color: #08283c
+}
+
+.tg-addnav:before,
+.tg-btn:after,
+.tg-btnnav,
+.tg-footermiddlearea,
+.tg-hasdropdown ul li a:before,
+.tg-parallax-window:after,
+.tg-project figure,
+.tg-service:hover .tg-heading:before,
+.tg-themecolor{
+    background: rgba(0, 66, 129, 1)
+}
+
+.tg-footerbottombar {
+    background: #003160
+}
+
+.tg-footerwidgets>div[class*=col-]:first-child,
+.tg-footerwidgets>div[class*=col-]:first-child:before {
+    background: #003b73
+}
+
+@media (max-width:991px) {
+    .tg-addnav:after {
+        background: #004281
+    }
+}
+
+@media (max-width:767px) {
+    .tg-hasdropdown ul {
+        background: #004d96
+    }
+    .tg-navigation {
+        background: #003b73
+    }
+    .tg-hasdropdown>ul>li>a {
+        border-color: #004281
+    }
+}
+
+.tg-addnav:after,
+.tg-btn,
+.tg-getadvice .tg-btn:hover,
+.tg-navigation>ul>li.tg-active>a,
+.tg-navigation>ul>li>a:hover {
+    border-color: #004281
+}
+
+.tg-404content h2 .tg-svginject image {
+    color: #000 !important;
+    background-color: #000 !important
+}
+
+.tg-404content h2 .tg-svginject image {
+    fill: #004281 !important
+}
